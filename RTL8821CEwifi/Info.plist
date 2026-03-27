@@ -11,17 +11,15 @@
 			<key>IOClass</key>
 			<string>RTL8821CEwifi</string>
 			<key>IOMatchCategory</key>
-			<string>WiFiDriver</string>
+			<string>IONetworkController</string>
 			<key>IOPCIPrimaryMatch</key>
 			<string>0xC82110EC</string>
-			<key>IONetworkRootType</key>
-			<string>airport</string>
 			<key>IOProbeScore</key>
-			<integer>90000</integer>
+			<integer>1000</integer>
 			<key>IOProviderClass</key>
-			<string>IOPCIEDeviceWrapper</string>
-			<key>IOUserClientClass</key>
-			<string>ItlNetworkUserClient</string>
+			<string>IOPCIDevice</string>
+			<key>IOResourceMatch</key>
+			<string>IOBSD</string>
 		</dict>
 	</dict>
 	<key>OSBundleLibraries</key>
